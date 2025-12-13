@@ -79,11 +79,10 @@ html { scroll-behavior: smooth; }
   border: 6px solid rgba(14, 165, 233, .2);
 }
 .navbar {
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 50;
+  z-index: 1000;
   backdrop-filter: blur(10px);
   background: rgba(255,255,255,.7);
   border-bottom: 1px solid var(--border);

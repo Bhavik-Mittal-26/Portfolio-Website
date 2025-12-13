@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <main style={{ marginTop: 72 }}>
+      <main>
         <Hero />
         <About />
         <Skills />
