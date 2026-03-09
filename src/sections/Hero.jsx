@@ -25,7 +25,7 @@ export default function Hero() {
                 <span>Resume</span>
               </a>
             </div>
-            <p className="hero-sub">Web Developer • Frontend • Backend</p>
+            <p className="hero-sub">Full Stack Developer • AI Engineer</p>
             <div className="hero-actions">
               <a className="btn" href="#projects">View Projects</a>
               <a className="btn secondary" href="#contact">Contact Me</a>

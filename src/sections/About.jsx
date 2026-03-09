@@ -8,6 +8,7 @@ export default function About() {
         <p className="section-sub">Short bio</p>
         <div className="grid" style={{ gridTemplateColumns: '1fr' }}>
           <motion.div className="card" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} style={{ padding: 24 }}>
+            <p>Full Stack & AI Developer experienced in building scalable web and intelligent applications using React.js, Node.js, Python, MongoDB, and Firebase. Skilled in REST APIs, authentication, Docker deployment, and automation-driven systems with strong foundation in data structures, backend system design, and scalable architecture.</p>
             <p>Software Developer skilled in Web Development, AI, and Cloud Technologies with hands-on experience building production-ready applications using React.js, Node.js, Express, MongoDB, Firebase, and Python.</p>
             <p>Developed multi-agent automation systems and AI-driven healthcare platforms with optimized performance, secure authentication, and containerized deployments using Docker.</p>
             <p>Certified Azure AI Engineer Associate and Meta Front-End Developer with strong expertise in SQL, Data Science, and system design.</p>

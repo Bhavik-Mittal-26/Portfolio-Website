@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="grid projects-grid">
           {projects.map(p => (
             <motion.div key={p.title} className="card" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-              <img className="project-img" src={p.image} alt={p.title} loading="lazy" />
+              <img className="project-img" src={p.image} alt={p.title} loading="lazy" onError={e => { e.currentTarget.src = '/assets/placeholder.svg' }} />
               <div style={{ padding: 16 }}>
                 <h3 style={{ margin: '0 0 8px' }}>{p.title}</h3>
                 <p style={{ margin: '0 0 12px', color: 'var(--muted)' }}>{p.description}</p>

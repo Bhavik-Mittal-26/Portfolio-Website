@@ -1,7 +1,8 @@
 export const education = [
+  
   {
-    degree: 'B.Tech (3rd Year) in Computer Science',
-    school: 'Poornima College of Engineering, Jaipur',
-    period: '2025'
+    degree: 'B.Tech in Computer Science',
+    school: 'Poornima College Of Engineering, Jaipur',
+    period: '2023 – 2027'
   }
 ]

@@ -9,8 +9,10 @@ const links = [
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'education', label: 'Education' },
+  { id: 'hackathons', label: 'Hackathons' },
   { id: 'certificates', label: 'Certificates' },
+  { id: 'publications', label: 'Publications' },
+  { id: 'education', label: 'Education' },
   { id: 'testimonials', label: 'Testimonials' },
   { id: 'contact', label: 'Contact' },
 ]
