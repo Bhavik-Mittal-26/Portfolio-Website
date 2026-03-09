@@ -10,12 +10,10 @@
     "lint": "echo \"No linter configured\""
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "framer-motion": "^11.11.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "framer-motion": "^11.11.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.2",
     "vite": "^5.4.0"
   }
 }
